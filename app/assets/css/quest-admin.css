@@ -1,0 +1,339 @@
+body {
+  font-family: "open_sansregular", verdana, Arial, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 16px;
+}
+h4 {
+  font-size: 14px;
+}
+h5 {
+  font-size: 12px;
+}
+h6 {
+  font-size: 10px;
+}
+h3,
+h4,
+h5 {
+  margin-top: 5px;
+  font-weight: 600;
+}
+a {
+  cursor: pointer;
+}
+p {
+  padding: 0.5em 0px 1em 0px;
+  line-height: 150%;
+  text-align: justify;
+}
+/*  general styles */
+.clear {
+  clear: both;
+}
+
+.navbar-static-side,
+header,
+footer,
+li.active,
+.page-wrapper {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+header {
+  border: 1px solid #c9eafd;
+}
+.header-login {
+  display: none;
+}
+.logo-container {
+  float: left;
+  margin: 0px 5px 0px 15px;
+  width: auto;
+  padding: 0px 20px;
+  text-align: center;
+}
+.logo-style {
+  color: #ED2224;
+  font-size: 30px;
+}
+.logo-slogan {
+  font-size: 12px;
+}
+.navbar-fixed-top,
+.navbar-static-top {
+  background: #cfcfcf;
+}
+.navbar-fixed-top .nav > li > a,
+.navbar-static-top .nav > li > a {
+  font-weight: 600;
+  line-height: 45px;
+  padding: 0 20px 0 25px;
+  text-transform: capitalize;
+}
+.navbar-top-links li {
+  display: inline-block;
+}
+.navbar {
+  min-height: 45px;
+  margin: 0px;
+}
+.footer {
+  background: none #fff;
+  border-top: 1px solid #ccc;
+  bottom: -25px;
+  left: 0;
+  padding: 10px 20px;
+  position: fixed;
+  right: 0;
+  font-size: 11px;
+}
+.login-footer {
+  background: #f3f3f4;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  line-height: 25px;
+  padding: 5px 20px;
+  position: fixed;
+  right: 0;
+}
+.login-footer .footer-power {
+  color: #333;
+  font-weight: bold;
+}
+.login-footer .footer-power img {
+  margin-left: 10px;
+}
+
+.login-wrapper {
+  width: 620px;
+  padding: 0;
+  margin: 262px 0 0 257px;
+
+}
+.login-block {
+  float: inherit;
+  width: inherit;
+  border: 1px solid #c9eafd;
+  padding: 20px 20px 10px 20px;
+  background-color: cornflowerblue;
+}
+.login-block .date-of-birth {
+  width: 60%;
+  margin-right: 10px;
+  float: left;
+}
+.login-block .alert {
+  text-align: center;
+  padding: 8px 15px;
+}
+.login-title {
+  color: #0496D2;
+  font-family: "open_sanslight";
+}
+.login-block-left {
+  border-right: 1px solid #4d4d4d;
+  float: left;
+  min-height: 200px;
+  padding-top: 40px;
+  width: 135px;
+}
+.login-block-right {
+  float: right;
+  width: 420px;
+}
+.login-wrapper .form-horizontal .form-group {
+  margin: 0px 0px 10px 0px;
+}
+.login-wrapper .form-horizontal .control-label {
+  padding: 7px 0px 0px 0px;
+}
+.loginBtn{
+  background-color: black;
+  border-color: black;
+}
+
+    .panel-default > .panel-heading {
+        background-color: #bc202b;
+        /*     color: white */
+    }
+
+    .box_bg_color {
+        background-color: white;
+    }
+
+    .panel, .panel-group .panel-heading + .panel-collapse > .panel-body {
+        border: none;
+    }
+
+    panel a.headercolor {
+        background: #1fb714;
+    }
+
+    .panel-group .panel-heading + .panel-collapse > .panel-body {
+        border: 1px solid #ddd;
+        background: white;
+    }
+
+    .panel-group,
+    .panel-group .panel,
+    .panel-group .panel-heading,
+    .panel-group .panel-heading a,
+    .panel-group .panel-title,
+    .panel-group .panel-title a,
+    .panel-group .panel-body,
+    .panel-group .panel-group .panel-heading + .panel-collapse > .panel-body {
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        border: 0;
+        font-family: sans-serif;
+    }
+
+    .panel-group .panel-heading {
+        padding: 0;
+    }
+
+    .panel-group .panel-heading h4 {
+        margin-bottom: 1px !important;
+    }
+
+    .panel-group .panel-heading a {
+        display: block;
+        background: #1fb714;
+        color: blue;
+        padding: 15px 55px 15px 15px;
+        text-decoration: none;
+        position: relative;
+        font-family: sans-serif;
+        font-style: normal;
+    }
+
+    .panel-group .panel-heading a.collapsed {
+        background: #1fb714;
+        color: blue;
+        cursor: pointer;
+    }
+
+    .panel-group .panel-heading a:after {
+        /*content: '-';*/
+        content: ' ';
+        background: transparent url(../../images/icon-dropdown-arrow.png) center center no-repeat;
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        font-size: 30px;
+        height: 50px;
+        width: 45px;
+        background-size: 30px 30px !important;
+    }
+
+    .panel-group .panel-heading a.collapsed:after {
+        /*content: '+';*/
+        content: ' ';
+        top: 5px;
+        background-size: 30px 30px !important;
+        background: transparent url(../../images/icon-dropdown-arrow.png) center center no-repeat;
+    }
+
+    .panel-group .panel-collapse {
+        margin-top: 1px !important;
+    }
+
+    .panel-group .panel-body {
+        background: #ffffff;
+        padding: 15px;
+        border-radius: 2px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        /*box-shadow: 7px 0px 5px #888888;*/
+    }
+
+    .panel-group .panel {
+        background-color: transparent;
+    }
+
+    .panel-group .panel-body p:last-child,
+    .panel-group .panel-body ul:last-child,
+    .panel-group .panel-body ol:last-child {
+        margin-bottom: 0;
+    }
+
+    .screen{
+            position: absolute;
+            z-index: 1;
+    }
+    .articleBlock{
+            font-size: larger;
+            text-align: justify;
+    }
+    .add1{
+            width: 100%;
+    height: 116px;
+    margin-top: 80%;
+    }
+    
+    .imgBlock{
+         width: 100%;
+    height: 490px;
+
+    }
+    .closeArticle{
+        float: right;
+    }
+    .pointer{
+        cursor: pointer;
+    }
+    .articleBlock{
+    border: 2px solid #a5a5a5;
+    margin: 13px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 260px;
+    background-color: antiquewhite;
+    }
+    .articleSideBlock{
+    border: 2px solid #a5a5a5;
+    margin: 13px;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 547px; 
+    }
+
+
+ @media only screen and (max-width: 800px) {
+     .login-wrapper{
+         width: inherit;
+        margin: 0 0 0 0 !important;
+        }
+     }
+

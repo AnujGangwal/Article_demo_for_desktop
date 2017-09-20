@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Test</title>
+    <!-- inject-vender:css -->
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/toastr/toastr.min.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/animate.css/animate.min.css" />
+    <!-- endinject -->
+    <link rel="stylesheet" type="text/css" href="app/assets/css/quest-admin.css" />
+ 
+</head>
+
+<body class="nav-md quest-admin ">
+    <div class="body-container" data-ng-controller="LayoutCtrl as vm">
+        <div class="float-full">
+            <header ng-class="{'header-login': !isLogin}" ng-show="isLogin" data-ng-include="'app/common/layout/header.tmpl.html'"></header>
+            <section data-ng-view></section>
+            <div class="clearfix"></div>
+            <footer class="footer login-footer" ng-show="isLogin" data-ng-include="'app/common/layout/footer.tmpl.html'"></footer>
+        </div>
+    </div>
+    <!-- inject-vendor:bower:js -->
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="bower_components/moment/moment.js"></script>
+    <script type="text/javascript" src="bower_components/toastr/toastr.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-smart-table/dist/smart-table.min.js"></script>
+    <script type="text/javascript" src="libs/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="bower_components/angular-cookies/angular-cookies.min.js"></script>
+    <script type="text/javascript" src="js/test-app-1.0.0.js"></script>
+</body>
+
+</html>

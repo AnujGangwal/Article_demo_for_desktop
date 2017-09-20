@@ -1,0 +1,32 @@
+{
+  "browser": true,
+  "camelcase": true,
+  "curly": true,
+  "devel": false,
+  "eqeqeq": true,
+  "expr": false,
+  "forin": true,
+  "globals": {
+    "jQuery": true,
+    "angular": true,
+    "toastr": true,
+    "moment": true,
+    "q": true
+  },
+  "immed": true,
+  "indent": 4,
+  "latedef": "nofunc",
+  "newcap": true,
+  "noarg": true,
+  "nonew": true,
+  "undef": false,
+  "unused": false,
+  "strict": false,
+  "maxparams": 20,
+  "maxdepth": 4,
+  "trailing": true,
+  "maxlen": 220,
+  "node": true,
+  "validthis": true,
+  "sub" : true
+}

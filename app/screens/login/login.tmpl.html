@@ -1,0 +1,31 @@
+<div class="container page-container">
+    <div class="row">
+        <div class="col-md-12 col-sm-10">
+        <div class="login-wrapper col-md-6">
+        <h2 class="login-title">Login</h2>
+        <div class="login-block">
+            <form class="form form-horizontal" name="loginForm" role="form" novalidate>
+                    <div class="form-group "  ng-class="{'has-error': loginForm.username.$invalid && loginForm.username.$dirty, 'has-success' : loginForm.username.$valid && loginForm.username.$dirty}">
+                        <label for=" " class="col-sm-3 control-label ">User Name</label>
+                        <div class="col-sm-9 ">
+                            <input type="text" name="username" id="username" class="form-control" ng-model="vm.user.username" placeHolder="Enter username" required="" />
+                        </div>
+                    </div>
+                    <div class="form-group " ng-class="{'has-error': loginForm.password.$invalid && loginForm.password.$dirty, 'has-success' : loginForm.password.$valid && loginForm.password.$dirty}">
+                        <label for=" " class="col-sm-3 control-label ">Password</label>
+                        <div class="col-sm-9 ">
+                            <input type="password" name="password" class="form-control" type="password" ng-model="vm.user.password" placeholder="Enter password" required="">
+                        </div>
+                    </div>
+                    <div class="form-group ">
+                        <div class="col-sm-offset-3 col-sm-10 ">
+                            <button type="submit" class="btn btn-primary loginBtn" ng-disabled="loginForm.$invalid" ng-click="vm.login()">LOGIN</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        <div class="clearfix "> &nbsp;</div>
+        </div>
+        </div>
+    </div>
+</div>

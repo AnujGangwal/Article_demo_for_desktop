@@ -1,0 +1,38 @@
+{
+  "name": "test-app",
+  "description": "Test App",
+  "main": "index.js",
+  "authors": [
+    "Anuj Gangwal"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "1.6.5",
+    "angular-route": "1.6.5",
+    "angular-resource": "1.6.5",
+    "angular-animate": "1.6.5",
+    "angular-cookies": "1.6.5",
+    "angular-sanitize": "1.6.5",    
+    "angular-touch": "1.6.5",
+    "angular-bootstrap": "^1.3.3",
+    "angular-base64": "2.0.5",
+    "angular-smart-table": "^2.1.8",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "less": "^2.7.1",
+    "extras.angular.plus": "^0.9.3",
+    "toastr": "^2.1.3",
+    "moment": "^2.14.1",
+    "animate.css": "^3.5.2"
+  }
+  
+}
